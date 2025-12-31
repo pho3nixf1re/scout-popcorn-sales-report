@@ -10,14 +10,13 @@ sales allocation notebook works.
 
 ## How to Use
 
-To test the notebook with example data:
+This example data is the **default data source** for the notebook. When you run
+the configuration cell, the input widgets are pre-populated with:
+- Shifts file: `data-example/shifts.csv`
+- Sales file: `data-example/sales.csv`
 
-1. Copy the files from this folder to the `data/` folder:
-   ```bash
-   cp data-example/* data/
-   ```
-
-2. Run the notebook normally
+Simply run the notebook as-is to analyze this example data, or modify the file
+paths in the configuration cell to use different data sources.
 
 ## Example Results
 
